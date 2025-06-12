@@ -4,6 +4,16 @@
     font-style: normal;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 25px;
+
+}
+
+
+
 .head {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -41,7 +51,7 @@
 
 
 
-
+.link {padding-left: 10px;}
 
 .navigation__ul {
   display: flex;
@@ -83,7 +93,7 @@
 .partie2 {
 
     background-color: rgb(13, 90, 177);
-    width: 40%;
+    width: 47%;
     height: 800px;
 
 }
