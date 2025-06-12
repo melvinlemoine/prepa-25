@@ -4,6 +4,16 @@
     font-style: normal;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 25px;
+
+}
+
+
+
 .head {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -41,7 +51,7 @@
 
 
 
-
+.link {padding-left: 20px;}
 
 .navigation__ul {
   display: flex;
@@ -83,7 +93,7 @@
 .partie2 {
 
     background-color: rgb(13, 90, 177);
-    width: 40%;
+    width: 47%;
     height: 800px;
 
 }
@@ -140,31 +150,31 @@
 }
 
 .imgg2 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures2.jpeg');
 }
 
 .imgg3 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures3.jpeg');
 }
 
 .imgg4 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures4.jpeg');
 }
 
 .imgg5 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures5.jpeg');
 }
 
 .imgg6 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures6.jpeg');
 }
 
 .imgg7 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures7.jpeg');
 }
 
 .imgg8 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures8.jpeg');
 }
 
 .logo:hover,
