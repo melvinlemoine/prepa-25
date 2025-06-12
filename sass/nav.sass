@@ -1,0 +1,11 @@
+@use "mixins"
+
+.navigation
+    &__ul
+        display: flex
+        flex-wrap: wrap
+        gap: 1rem
+
+        &_li
+            &_a
+                @include mixins.button
