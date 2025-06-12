@@ -48,6 +48,7 @@ li a:hover {
 
 header {
     background-size: cover;
+    background-image: url(fond.jpg);
     background-position: center;
     width: 100%;
     border-radius: 10px;
