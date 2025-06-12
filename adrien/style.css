@@ -9,6 +9,8 @@
     height: 165px;
     width: 220px;
     margin: 3rem;
+    border-radius: 10px;
+    border: 5px solid orange;
 }
 
 h1{
@@ -19,4 +21,38 @@ h1{
 
 p{
     margin: 3rem;
+    font-size: 20px;
+}
+
+.image2{
+    background-image: url("shiba-inu-shiba-max.gif");
+    height: 165px;
+    width: 220px;
+    margin: 3rem;
+    border-radius: 10px;
+    border: 5px solid blue;
+}
+
+.image3{
+    background-image: url("5f4446b3352a7f0a4767529fde0e92d1_w200.gif");
+    height: 165px;
+    width: 220px;
+    margin: 3rem;
+    border-radius: 10px;
+    border: 5px solid blueviolet;
+}
+
+.image4{
+    background-image: url("c6003a74f646f4373429c4ab088be7f5_w200.gif");
+    height: 165px;
+    width: 220px;
+    margin: 3rem;
+    border-radius: 10px;
+    background-size: cover;
+    border: 5px solid green;
+}
+
+.doggi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
