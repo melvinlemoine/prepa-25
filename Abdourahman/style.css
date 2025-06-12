@@ -1,0 +1,89 @@
+.titre{
+    color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: black;
+
+}
+.kiffer{
+    font-weight: bold;
+    color: rgb(226, 8, 8);
+    background-color: blue;
+    text-decoration: underline;
+}
+.admin{
+    background-color: aqua;
+
+}
+
+.texte{
+    border: 5px solid;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 30px;
+}
+.kagura{
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+}
+
+.kagura:hover {
+   transform: scale(1.2); }
+
+.boitea { background-image: url("kagura1.jpeg"); }
+.boiteb { background-image: url("kagura2.jpeg"); }
+.boitec { background-image: url("kagura3.jpeg"); }
+.boited { background-image: url("kagura4.jpeg"); }
+.kagura { background-image: url("GrcAHFBWoAAHxAV.jpeg"); }
+
+.boitea,
+.boiteb,
+.boitec,
+.boited {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+
+.boitea:hover,
+.boiteb:hover,
+.boitec:hover,
+.boited:hover {
+    transform: scale(1.05);
+}
+.boite-mere {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boites {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+.titre:hover {
+    transform: scale(1.2); }
