@@ -28,7 +28,7 @@ p{
     height: 265px;
     width: 320px;
     background-size: cover;
-    margin: 3rem;
+    margin: 2rem;
     border-radius: 10px;
     border: 5px solid green;
 }
@@ -38,7 +38,7 @@ p{
     height: 265px;
     width: 320px;
     background-size: cover;
-    margin: 3rem;
+    margin: 2rem;
     border-radius: 10px;
     border: 5px solid rgb(2, 80, 2);
 }
@@ -48,7 +48,7 @@ p{
     height: 265px;
     width: 320px;
     background-size: cover;
-    margin: 3rem;
+    margin: 2rem;
     border-radius: 10px;
     border: 5px solid  rgb(2, 53, 2);
 }
@@ -58,7 +58,7 @@ p{
     height: 265px;
     width: 320px;
     background-size: cover;
-    margin: 3rem;
+    margin: 2rem;
     border-radius: 10px;
     border: 5px solid  rgb(2, 48, 2);
 }
@@ -66,5 +66,26 @@ p{
 .doggi{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
 }
 
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+}
+
+.bouton{
+    border: 2px solid green;
+    padding-inline: 1.5rem;
+    padding-block: 0.3rem;
+    border-radius: 15px;
+    margin: 1rem;
+    background-color: antiquewhite;
+}
