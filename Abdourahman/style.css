@@ -94,7 +94,7 @@
         padding-inline: 25px;
     
     }
-@media (max-widh: 768px){
+@media (max-widh: 1000px){
     .container {
         width: 100%;
         padding: 10px;
