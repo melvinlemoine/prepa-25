@@ -1,11 +1,31 @@
 .container{
     width: 100%;
     padding-inline: 25px;
-    margin-inline: auto ;
-    border-radius: 1px solid red;
+    margin-inline: auto;
+    border: 1px solid red;
+    margin: 2rem;
 }
 
 .header{
+    color: red;
     font-size: 5rem;
     font-weight: bolder;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.image{
+    background-image: url(feu.jfif);
+    background-size: cover;
+    background-position: center;
+    min-height: 12rem;
+}
+
+.titre{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 3rem;
 }
