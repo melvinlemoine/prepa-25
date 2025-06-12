@@ -48,7 +48,7 @@ li a:hover {
 
 header {
     background-size: cover;
-    background-image: url(fond.jpg);
+    background-image: url(Rick.gif);
     background-position: center;
     width: 100%;
     border-radius: 10px;
@@ -56,7 +56,6 @@ header {
 }
 
 .overlay {
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(17, 17, 17) 74%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,7 +68,7 @@ header {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 
 }
@@ -78,7 +77,7 @@ h1 {
 .ligne{
     width: 15%;
     height: 1px;
-    background-color: #ffffff;
+    background-color: #000000;
     margin-top: -0.75rem;
 }
 
@@ -86,19 +85,19 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
 }
 
 span {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     font-weight: initial;
 
 }
 
 h3 {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     margin-top: -1.5rem;
 }
 
