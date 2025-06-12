@@ -56,7 +56,7 @@
 
     background-color: rgb(13, 90, 177);
     width: 40%;
-    height: 600px;
+    height: 800px;
 
 }
 
@@ -206,4 +206,14 @@ img2:hover,
 .img8:hover {
     transform: scale(1.05);
     transition: transform 0.1s ease;
+}
+
+.who{
+   width: 100%;
+    height: 45px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
