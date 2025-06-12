@@ -75,6 +75,11 @@ a{
     gap: 1.2rem;
 }
 
+.body p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
 .possums{
     height: 12rem;
     width: 100%;
@@ -83,9 +88,11 @@ a{
     box-shadow: 5px 5px 5px rgb(87, 87, 87);
     border-radius: 30px;
     transition: .8s;
+    border: 3px solid white;
 }
 .possums:hover{
     transform: scale(1.08);
+    border: 1px solid white;
 }
 
 .overlay{
@@ -120,4 +127,22 @@ a{
 
 .possum4{
     background-image: url(possum4.jfif);    
+}
+
+footer{
+    background-color: rgb(182, 180, 180);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }

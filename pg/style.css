@@ -48,7 +48,7 @@ li a:hover {
 
 header {
     background-size: cover;
-    background-image: url(fond.jpg);
+    background-image: url(cote.jpg);
     background-position: center;
     width: 100%;
     border-radius: 10px;
@@ -56,7 +56,6 @@ header {
 }
 
 .overlay {
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(17, 17, 17) 74%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,33 +75,33 @@ h1 {
 
 
 .ligne{
-    width: 15%;
-    height: 1px;
-    background-color: #ffffff;
-    margin-top: -0.75rem;
+    width: 33%;
+    height: 0.5rem;
+    background-color: rgb(255, 123, 0);
+    margin-top: -1.99rem;
 }
 
 
 h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #fff;
+    color: #00039e;
 }
 
 span {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #051074;
     font-weight: initial;
 
 }
 
-h3 {
+header h3 {
     font-size: 1.5rem;
-    color: #ffffff;
-    margin-top: -1.5rem;
+    color: rgb(255, 255, 255);
+    margin-top: -2.5rem;
 }
 
-a2 {
+header a {
     background: transparent;
     border: solid #ffffff;
     padding: 1rem 2rem;
@@ -111,9 +110,10 @@ a2 {
     font-size: 1rem;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
-a2:hover {
+header a:hover {
     background: #ffffff;
     color: #000000;
     font-size: 1.25rem;
@@ -122,12 +122,17 @@ a2:hover {
     border-radius: 25rem;
 }
 
+
+
+
+
+
 .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 3.125rem;
+    gap: 3rem;
 }
 
 .content h2 {
@@ -139,25 +144,22 @@ a2:hover {
 
 
 
+.bloc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    border-radius: 1.5rem;
+}
 
+.card {
+    border-radius: 1.5rem;
+}
 
-@media (max-width: 768px) {
-    .navbar {
-        justify-content: center;
-        
-    }
-
-    ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .overlay {
-        padding: 2.5rem;
-    }
-
-
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cf004f;
+    margin-top: 2rem;
 }
 
 @media (max-width: 480px) {
@@ -175,4 +177,16 @@ a2:hover {
     .overlay {
         padding: 1.5rem;
     }
+}
+
+footer {
+    display: flex;
+    background-image: url(fond.jpg);
+    background-size: cover;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    gap: 1.5rem;
+    height: auto;
 }
