@@ -7,15 +7,6 @@
     align-items: center;
 }
 
-.image{
-    background-image: url("shiba-max-shiba-inu.gif");
-    height: 165px;
-    width: 220px;
-    margin: 3rem;
-    border-radius: 10px;
-    border: 5px solid orange;
-}
-
 h1{
     color: rgb(0, 0, 0);
     margin: 3rem;
@@ -32,13 +23,22 @@ p{
     border-radius: 10px;
 }
 
+.image{
+    background-image: url("shiba-max-shiba-inu.gif");
+    height: 165px;
+    width: 220px;
+    margin: 3rem;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
 .image2{
     background-image: url("shiba-inu-shiba-max.gif");
     height: 165px;
     width: 220px;
     margin: 3rem;
     border-radius: 10px;
-    border: 5px solid blue;
+    border: 5px solid rgb(2, 80, 2);
 }
 
 .image3{
@@ -47,7 +47,7 @@ p{
     width: 220px;
     margin: 3rem;
     border-radius: 10px;
-    border: 5px solid blueviolet;
+    border: 5px solid  rgb(2, 53, 2);
 }
 
 .image4{
@@ -57,7 +57,7 @@ p{
     margin: 3rem;
     border-radius: 10px;
     background-size: cover;
-    border: 5px solid green;
+    border: 5px solid  rgb(2, 48, 2);
 }
 
 .doggi{
