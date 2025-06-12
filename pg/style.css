@@ -131,6 +131,7 @@ header a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
+    position: relative;
 }
 
 
@@ -167,4 +168,17 @@ footer {
     gap: 1.5rem;
     height: auto;
     margin-top: 3rem;
+}
+
+
+.fire_right{
+position: absolute;
+left: 34%;
+top: 28.5%;
+}
+
+.fire_left{
+position: absolute;
+left: 24%;
+top: 29%;
 }
