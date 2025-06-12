@@ -48,7 +48,7 @@ li a:hover {
 
 header {
     background-size: cover;
-    background-image: url(Rick.gif);
+    background-image: url(cote.jpg);
     background-position: center;
     width: 100%;
     border-radius: 10px;
@@ -68,7 +68,7 @@ header {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 
 }
@@ -85,19 +85,19 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #000000;
+    color: #0099ff;
 }
 
 span {
     font-size: 1.5rem;
-    color: #000000;
+    color: aqua;
     font-weight: initial;
 
 }
 
-h3 {
+header h3 {
     font-size: 1.5rem;
-    color: #000000;
+    color: aquamarine;
     margin-top: -1.5rem;
 }
 
@@ -121,12 +121,17 @@ a2:hover {
     border-radius: 25rem;
 }
 
+
+
+
+
+
 .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 3.125rem;
+    gap: 3rem;
 }
 
 .content h2 {
@@ -138,25 +143,22 @@ a2:hover {
 
 
 
+.bloc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    border-radius: 1.5rem;
+}
 
+.card {
+    border-radius: 1.5rem;
+}
 
-@media (max-width: 768px) {
-    .navbar {
-        justify-content: center;
-        
-    }
-
-    ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .overlay {
-        padding: 2.5rem;
-    }
-
-
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 2rem;
 }
 
 @media (max-width: 480px) {
