@@ -30,13 +30,17 @@
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
     gap: 1.5rem;
     height: 3rem;
     background-color: rgb(11, 66, 128);
     padding-right: 2rem;
 
 }
+
+
+
 
 .corps {
     display: flex;
