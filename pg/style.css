@@ -128,17 +128,22 @@ header a:hover {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    gap: 3rem;
-    position: relative;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 
 
 img{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     border-radius: 1.5rem;
     margin-top: 3rem;
 }
@@ -153,7 +158,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #cf004f;
-    margin-top: -2rem;
+    margin-top: 2rem;
 }
 
 
