@@ -75,6 +75,7 @@ p{
 .navigation{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 1rem;
     background-color: white;
     height: 5rem;
@@ -82,7 +83,7 @@ p{
 }
 
 .bouton{
-    border: 2px solid green;
+    border: 2px solid rgb(0, 0, 0);
     padding-inline: 1.5rem;
     padding-block: 0.3rem;
     border-radius: 15px;
