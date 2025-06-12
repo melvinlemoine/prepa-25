@@ -43,3 +43,12 @@ body {
     border-radius: 10px;
   }
 
+  .gallery img {
+    display: flex;
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 1rem ;
+  }
+
