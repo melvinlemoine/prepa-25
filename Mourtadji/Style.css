@@ -46,7 +46,7 @@
 .navigation__ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 20px;
 }
 .navigation__ul_li_a {
   display: flex;
@@ -54,9 +54,7 @@
   border-radius: 0;
   box-sizing: border-box;
   padding: 0.5em 1em;
-  background: silver;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-  -webkit-font-smoothing: none;
+  background: rgb(165, 186, 210);
 }
 .navigation__ul_li_a:active {
   box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
