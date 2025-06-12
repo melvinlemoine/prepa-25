@@ -80,6 +80,7 @@
 .lorem {
     font-family: "Julius Sans One", sans-serif;
     font-style: normal;
+    font-size: 20px;
 }
 
 
@@ -216,4 +217,13 @@ img2:hover,
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wlc {display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sqg{
+    display: flex;
 }
