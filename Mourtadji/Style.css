@@ -86,7 +86,7 @@
 
 .partie1 {
     width: 50%;
-    height: 750px;
+    height: 100%;
 
 }
 
@@ -97,7 +97,7 @@ justify-content: center;
 align-items: center;
     background-color: rgb(9, 70, 139);
     width: 47%;
-    height: 800px;
+    height: 920px;
 
 }
 
@@ -150,7 +150,6 @@ align-items: center;
   height: 80%;
   background-size: cover;
   background-position: center;
-  background-repeat: ;
   flex-shrink: 0;
 }
 
@@ -181,6 +180,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+
 }
 
 .sqg {
