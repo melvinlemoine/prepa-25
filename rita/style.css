@@ -1,0 +1,36 @@
+ body { 
+  background: #eef1f5;
+  margin: 2px;
+  padding:20px;
+  text-align:center;
+  } 
+
+.nom{
+    color: rgb(172, 189, 189);
+    margin-bottom: 30px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Stagiaire img{
+  width: 100%;
+  
+}
+
+.stage {
+    color: rgb(180, 155, 159);
+
+}
+
+
+
+
+    
+
