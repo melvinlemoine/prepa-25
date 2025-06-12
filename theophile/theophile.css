@@ -18,7 +18,37 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: rgb(255, 213, 220);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    min-height: 4rem;
+    background-color: rgb(182, 180, 180);
+}
+
+.navbar a{
+    color: white;
+    padding: .75rem 1rem;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid white;
+    transition: .8s;
+    box-shadow: 2px 2px 2px white;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.08);
 }
 
 .header{
@@ -50,7 +80,30 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    box-shadow: 3px 3px 3px rgb(87, 87, 87);
+    box-shadow: 5px 5px 5px rgb(87, 87, 87);
+    border-radius: 30px;
+    transition: .8s;
+}
+.possums:hover{
+    transform: scale(1.08);
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+    padding: auto;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    transition: .8s;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
 }
 
 .possum1{
