@@ -44,3 +44,7 @@ body{
 .demon {
     height: 25rem;
 }
+
+.secret{
+    font-size: 0.5rem;
+}
