@@ -1,3 +1,6 @@
+.fond{
+    background-color: bisque;
+}
 .corps{
     display: flex;
     flex-direction: column;
@@ -14,14 +17,19 @@
 }
 
 h1{
-    color: red;
+    color: rgb(0, 0, 0);
     margin: 3rem;
     font-size: 50px;
+    font-family: sans-serif;
 }
 
 p{
-    margin: 3rem;
+    margin: 2rem;
     font-size: 20px;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .image2{
@@ -57,22 +65,3 @@ p{
     grid-template-columns: 1fr 1fr;
 }
 
-.image:hover{
-    height: 1000px;
-    width: 1000px;
-}
-
-.image2:hover{
-    height: 1000px;
-    width: 1000px;
-}
-
-.image3:hover{
-    height: 1000px;
-    width: 1000px;
-}
-
-.image4:hover{
-    height: 1000px;
-    width: 1000px;
-}
