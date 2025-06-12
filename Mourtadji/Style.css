@@ -1,0 +1,219 @@
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('pictures/logo.png');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.boitelogo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(13, 90, 177);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    height: 3rem;
+    background-color: rgb(11, 66, 128);
+    padding-right: 2rem;
+
+}
+
+.corps {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.partie1 {
+    width: 50%;
+    height: 750px;
+
+}
+
+.partie2 {
+
+    background-color: rgb(13, 90, 177);
+    width: 40%;
+    height: 800px;
+
+}
+
+.wellcome {
+    font-size: 30px;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal; }
+
+
+.txtpht {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+    color: white;
+}
+
+.lorem {
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+}
+
+
+.imge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+}
+
+.imge>div {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease;
+}
+
+.imge>div:hover {
+    transform: scale(1.05);
+}
+
+.imgg1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+       background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.imgg2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+   background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.imgg3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+ background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.imgg4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.imgg5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    border-radius: 4px;
+     background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.imgg6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+
+}
+
+.imgg7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+  background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+}
+
+.imgg8 {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+background-image: url('pictures/pictures.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.img1:hover,
+img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover,
+.img7:hover,
+.img8:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease;
+}
+
+.who{
+   width: 100%;
+    height: 45px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
