@@ -29,3 +29,15 @@
     text-decoration: underline;
     padding-bottom: 3rem;
 }
+
+.oneparaph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.demon{
+    height: 25rem;
+    
+}
