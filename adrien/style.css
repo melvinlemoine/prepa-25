@@ -56,3 +56,23 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.image:hover{
+    height: 1000px;
+    width: 1000px;
+}
+
+.image2:hover{
+    height: 1000px;
+    width: 1000px;
+}
+
+.image3:hover{
+    height: 1000px;
+    width: 1000px;
+}
+
+.image4:hover{
+    height: 1000px;
+    width: 1000px;
+}
