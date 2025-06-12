@@ -7,6 +7,11 @@
 
 body {
   padding-top: 3rem;
+  background-color: #dfdfdf;
+}
+
+.text {
+  font-size: 1.15rem;
 }
 
 .navigation__ul {
@@ -15,6 +20,7 @@ body {
   gap: 1rem;
 }
 .navigation__ul_li_a {
+  display: flex;
   border: none;
   border-radius: 0;
   box-sizing: border-box;
@@ -28,6 +34,17 @@ body {
 .navigation__ul_li_a:active {
   box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
   padding: 0.6em 0.9em 0.4em 1.1em;
+}
+
+.header {
+  margin-top: 5rem;
+  background-color: #cfcfcf;
+  padding: 1.5rem;
+  border: 1px solid #000;
+}
+.header__title {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
