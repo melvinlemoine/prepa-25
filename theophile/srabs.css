@@ -1,0 +1,107 @@
+.container{
+    width: 100%;
+    padding-inline: 25px;
+    margin-inline: auto ;
+}
+
+.container-s{
+    max-width: 400px;
+}
+
+.container-m{
+    max-width: 800px;
+}
+
+.container-l{
+    max-width: 1200px; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 213, 220);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    min-height: 4rem;
+    background-color: rgb(255, 0, 255);
+    margin-bottom: 2rem;
+}
+
+.navbar a{
+    color: white;
+    padding: .75rem 1rem;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid white;
+    transition: .8s;
+    box-shadow: 2px 2px 2px white;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.08);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.srab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.img{
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px rgb(255, 255, 255);
+    transition: .8s;
+}
+.img:hover{
+    transform: scale(1.08);
+}
+
+.txt{
+    width: 50%;
+}
+
+.theophile_img{
+    background-image: url(theophile.webp);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.pg_img{
+    background-image: url(pg.webp);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.clement_img{
+    background-image: url(clement.webp);
+    background-size: cover;
+    background-position: 90% ;
+    height: 30rem;
+    width: 100%;
+}
