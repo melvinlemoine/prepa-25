@@ -51,7 +51,7 @@
 
 
 
-.link {padding-left: 10px;}
+.link {padding-left: 20px;}
 
 .navigation__ul {
   display: flex;
@@ -150,31 +150,31 @@
 }
 
 .imgg2 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures2.jpeg');
 }
 
 .imgg3 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures3.jpeg');
 }
 
 .imgg4 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures4.jpeg');
 }
 
 .imgg5 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures5.jpeg');
 }
 
 .imgg6 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures6.jpeg');
 }
 
 .imgg7 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures7.jpeg');
 }
 
 .imgg8 {
-    background-image: url('pictures/pictures.jpeg');
+    background-image: url('pictures/pictures8.jpeg');
 }
 
 .logo:hover,
