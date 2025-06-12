@@ -1,5 +1,8 @@
 header{
-    color: white;
+    width: 100%;
+    height: 20rem;
+    background-image: url(China+1+SQ.jpg);
+    background-size: cover;
 }
 
 body{
@@ -11,11 +14,26 @@ body{
 .navbox{
     width: 100%;
     height: auto;
-    margin-top: 3rem;
-    background-color: #050213;
+    background-color: #0a0324;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+padding: 1rem;
+border: 2px solid #2dbcff;
 }
 
 .navbutton{
+    font-weight: bolder;
     color: #f6287d;
     text-decoration: none;
+    border: 3px solid #f6287d; 
+    padding: 2rem;
+}
+
+.navbutton:hover{
+    border: 3px solid #2dbcff;
+    background-color: #f6287d;
+    color: white;
+
 }
