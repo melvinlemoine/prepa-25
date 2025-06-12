@@ -35,14 +35,28 @@ body {
 }
 
 .header {
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   background-color: #cfcfcf;
   padding: 1.5rem;
   border: 1px solid #000;
+  background-image: url("assets/images/classe.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.header__title, .header__description {
+  text-shadow: 0 0 50px white;
 }
 .header__title {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
+}
+.header__description {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
