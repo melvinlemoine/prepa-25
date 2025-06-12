@@ -5,6 +5,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: bisque;
+  overflow: hidden;
 }
 
 h1 {

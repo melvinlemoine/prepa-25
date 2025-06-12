@@ -128,42 +128,40 @@ header a:hover {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    gap: 3rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 
+
 img{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     border-radius: 1.5rem;
     margin-top: 3rem;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #cf004f;
-    margin-top: -2rem;
+    margin-top: 2rem;
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-    
-    }
 
-    ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .overlay {
-        padding: 1.5rem;
-    }
-}
 
 footer {
     display: flex;
@@ -176,4 +174,17 @@ footer {
     gap: 1.5rem;
     height: auto;
     margin-top: 3rem;
+}
+
+
+.fire_right{
+position: absolute;
+left: 34%;
+top: 28.5%;
+}
+
+.fire_left{
+position: absolute;
+left: 24%;
+top: 29%;
 }
