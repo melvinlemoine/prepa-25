@@ -45,6 +45,7 @@ body {
 
   .gallery img {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-height: 250px;
     object-fit: cover;
