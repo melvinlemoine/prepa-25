@@ -141,6 +141,12 @@ img{
     margin-top: 3rem;
 }
 
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -148,22 +154,7 @@ h3 {
     margin-top: -2rem;
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-    
-    }
 
-    ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .overlay {
-        padding: 1.5rem;
-    }
-}
 
 footer {
     display: flex;
