@@ -38,9 +38,8 @@ li a {
 }
 
 li a:hover {
-    background: #000000;
+    background: #140085;
     color: #ffffff;
-    font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
     border-radius: 25rem;
@@ -129,59 +128,37 @@ header a:hover {
 
 .content {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
 }
 
-.content h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
+
+img{
+    width: 60%;
+    height: 60%;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
 }
 
-
-
-.bloc {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    border-radius: 1.5rem;
-}
-
-.card {
-    border-radius: 1.5rem;
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #cf004f;
-    margin-top: 2rem;
+    margin-top: -2rem;
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-    
-    }
 
-    ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .overlay {
-        padding: 1.5rem;
-    }
-}
 
 footer {
     display: flex;
-    background-image: url(fond.jpg);
+    background-image: url(cote.jpg);
     background-size: cover;
     color: #ffffff;
     align-items: center;
@@ -189,4 +166,5 @@ footer {
     padding: 1.5rem 0;
     gap: 1.5rem;
     height: auto;
+    margin-top: 3rem;
 }

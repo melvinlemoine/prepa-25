@@ -1,0 +1,21 @@
+header{
+    color: white;
+}
+
+body{
+    color: white;
+    background-color: #0a0324;
+    }
+    
+
+.navbox{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    background-color: #050213;
+}
+
+.navbutton{
+    color: #f6287d;
+    text-decoration: none;
+}

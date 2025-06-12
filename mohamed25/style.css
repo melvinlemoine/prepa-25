@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #eef1f5;
+  background: #d6e3f5;
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -24,10 +24,10 @@ h2 {
 }
 
 .student-card {
-  background: white;
+  background: rgb(153, 192, 186);
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(75, 67, 67, 0.1);
 }
 
 .student-card img {
@@ -40,6 +40,10 @@ h2 {
   margin-top: 10px;
   font-weight: bold;
   color: #555;
+}
+.student-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .stage {

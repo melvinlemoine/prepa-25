@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: bisque;
+}
+
+h1 {
+  position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "dog";
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+@keyframes bone {
+  0% {
+    transform: rotate(0deg);
+    top: 0;
+    left: 0;
+  }
+  100% {
+    transform: rotate(3600deg);
+    top: 100%;
+    left: 100%;
+  }
+}
+@keyframes croquettes {
+  0% {
+    transform: rotate(0deg);
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    bottom: 100%;
+    left: 100%;
+  }
+}
+
+.bone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: bone 10s linear infinite;
+    height: 10rem;
+}
+.croquettes{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: croquettes 20s linear infinite;
+    height: 15rem;
+}
+
+.picture {
+  max-height: 75vh;
+  rotate: 10deg;
+}
+
+@font-face {
+  font-family: "dog";
+  src: url("lazy_dog.ttf");
+}
