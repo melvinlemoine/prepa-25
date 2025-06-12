@@ -1,22 +1,92 @@
+.fond{
+    background-color: bisque;
+}
 .corps{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.image{
-    background-image: url("shiba-max-shiba-inu.gif");
-    height: 165px;
-    width: 220px;
-    margin: 3rem;
-}
-
 h1{
-    color: red;
+    color: rgb(0, 0, 0);
     margin: 3rem;
     font-size: 50px;
+    font-family: sans-serif;
 }
 
 p{
-    margin: 3rem;
+    margin: 2rem;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.image{
+    background-image: url("shiba-max-shiba-inu.gif");
+    height: 265px;
+    width: 320px;
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.image2{
+    background-image: url("shiba-inu-shiba-max.gif");
+    height: 265px;
+    width: 320px;
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 5px solid rgb(2, 80, 2);
+}
+
+.image3{
+    background-image: url("5f4446b3352a7f0a4767529fde0e92d1_w200.gif");
+    height: 265px;
+    width: 320px;
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 5px solid  rgb(2, 53, 2);
+}
+
+.image4{
+    background-image: url("c6003a74f646f4373429c4ab088be7f5_w200.gif");
+    height: 265px;
+    width: 320px;
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 5px solid  rgb(2, 48, 2);
+}
+
+.doggi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+}
+
+.bouton{
+    border: 2px solid rgb(0, 0, 0);
+    padding-inline: 1.5rem;
+    padding-block: 0.3rem;
+    border-radius: 15px;
+    margin: 1rem;
+    background-color: antiquewhite;
 }

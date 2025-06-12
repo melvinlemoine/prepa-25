@@ -1,6 +1,4 @@
 .me{
-    background-size: cover;
-    background-position: center;
     border: solid 1px red;
     display: flex;
     justify-content: space-around;
@@ -10,13 +8,23 @@
     width: 10rem;
     height: 10rem;
     border: solid 1px green;
-}
-.image2{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.image3{
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.hobby{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
