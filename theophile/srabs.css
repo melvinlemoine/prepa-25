@@ -105,3 +105,26 @@ a{
     height: 30rem;
     width: 100%;
 }
+
+.adrien_img{
+    background-image: url(adrien.png);
+    background-size: cover;
+    background-position: 90% ;
+    height: 30rem;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(255, 0, 255);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
