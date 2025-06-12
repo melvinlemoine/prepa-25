@@ -7,6 +7,11 @@
 
 body {
   padding-top: 3rem;
+  background-color: #dfdfdf;
+}
+
+.text {
+  font-size: 1.15rem;
 }
 
 .navigation__ul {
@@ -15,11 +20,10 @@ body {
   gap: 1rem;
 }
 .navigation__ul_li_a {
+  display: flex;
   border: none;
   border-radius: 0;
   box-sizing: border-box;
-  min-height: 23px;
-  min-width: 75px;
   padding: 0.5em 1em;
   background: silver;
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
@@ -28,6 +32,31 @@ body {
 .navigation__ul_li_a:active {
   box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
   padding: 0.6em 0.9em 0.4em 1.1em;
+}
+
+.header {
+  margin-top: 1.5rem;
+  background-color: #cfcfcf;
+  padding: 1.5rem;
+  border: 1px solid #000;
+  background-image: url("assets/images/classe.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.header__title, .header__description {
+  text-shadow: 0 0 50px white;
+}
+.header__title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.header__description {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
