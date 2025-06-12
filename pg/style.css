@@ -179,10 +179,10 @@ h3 {
     }
 }
 
-.footer {
-   
+footer {
     display: flex;
-    background-color: #000a96;
+    background-image: url(fond.jpg);
+    background-size: cover;
     color: #ffffff;
     align-items: center;
     justify-content: center;
