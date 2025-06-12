@@ -106,6 +106,14 @@ a{
     width: 100%;
 }
 
+.adrien_img{
+    background-image: url(adrien.png);
+    background-size: cover;
+    background-position: 90% ;
+    height: 30rem;
+    width: 100%;
+}
+
 footer{
     background-color: rgb(255, 0, 255);
     width: 100%;
