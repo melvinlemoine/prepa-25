@@ -110,6 +110,7 @@ header a {
     font-size: 1rem;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 header a:hover {
@@ -176,4 +177,16 @@ h3 {
     .overlay {
         padding: 1.5rem;
     }
+}
+
+.footer {
+   
+    display: flex;
+    background-color: #000a96;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    gap: 1.5rem;
+    height: auto;
 }
