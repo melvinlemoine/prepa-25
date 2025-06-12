@@ -25,8 +25,9 @@ p{
 
 .image{
     background-image: url("shiba-max-shiba-inu.gif");
-    height: 165px;
-    width: 220px;
+    height: 265px;
+    width: 320px;
+    background-size: cover;
     margin: 3rem;
     border-radius: 10px;
     border: 5px solid green;
@@ -34,8 +35,9 @@ p{
 
 .image2{
     background-image: url("shiba-inu-shiba-max.gif");
-    height: 165px;
-    width: 220px;
+    height: 265px;
+    width: 320px;
+    background-size: cover;
     margin: 3rem;
     border-radius: 10px;
     border: 5px solid rgb(2, 80, 2);
@@ -43,8 +45,9 @@ p{
 
 .image3{
     background-image: url("5f4446b3352a7f0a4767529fde0e92d1_w200.gif");
-    height: 165px;
-    width: 220px;
+    height: 265px;
+    width: 320px;
+    background-size: cover;
     margin: 3rem;
     border-radius: 10px;
     border: 5px solid  rgb(2, 53, 2);
@@ -52,11 +55,11 @@ p{
 
 .image4{
     background-image: url("c6003a74f646f4373429c4ab088be7f5_w200.gif");
-    height: 165px;
-    width: 220px;
+    height: 265px;
+    width: 320px;
+    background-size: cover;
     margin: 3rem;
     border-radius: 10px;
-    background-size: cover;
     border: 5px solid  rgb(2, 48, 2);
 }
 
