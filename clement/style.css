@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 100%;
     padding-inline: 25px;
     margin-inline: auto;
@@ -6,7 +6,7 @@
     margin: 2rem;
 }
 
-.header{
+.header {
     color: red;
     font-size: 5rem;
     font-weight: bolder;
@@ -14,18 +14,30 @@
     padding-top: 2rem;
 }
 
-.image{
+.image {
     background-image: url(feu.jfif);
     background-size: cover;
     background-position: center;
     min-height: 12rem;
 }
 
-.titre{
+.titre {
     font-size: 3rem;
     font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
     padding-bottom: 3rem;
+}
+
+.oneparaph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.demon {
+    height: 25rem;
 }
