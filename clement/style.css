@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 0, 0);
+}
+
 .container {
     width: 100%;
     padding-inline: 25px;
@@ -39,4 +43,8 @@
 
 .demon {
     height: 25rem;
+}
+
+.secret{
+    font-size: 0.5rem;
 }
