@@ -21,6 +21,10 @@ body{
     background-color: bisque;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -51,6 +55,29 @@ body{
     background-size: cover;
     background-position: center;
     box-shadow: 3px 3px 3px rgb(87, 87, 87);
+    border-radius: 30px;
+    transition: .8s;
+}
+.possums:hover{
+    transform: scale(1.08);
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+    padding: auto;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    transition: .8s;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
 }
 
 .possum1{
