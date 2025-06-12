@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    padding-inline: 25px;
+    margin-inline: auto ;
+}
+
+.container-s{
+    max-width: 400px;
+}
+
+.container-m{
+    max-width: 800px;
+}
+
+.container-l{
+    max-width: 1200px; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1.2rem;
+}
+
+.header h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.header p{
+    font-size: 1.2rem;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+.possums{
+    height: 12rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 3px rgb(87, 87, 87);
+}
+
+.possum1{
+    background-image: url(possum1.jpg);
+}
+
+.possum2{
+    background-image: url(possum2.jpg);    
+}
+
+.possum3{
+    background-image: url(possum3.jfif);    
+}
+
+.possum4{
+    background-image: url(possum4.jfif);    
+}
