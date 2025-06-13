@@ -154,6 +154,7 @@ header a:hover {
     margin-top: 3rem;
     background-image: url(cote.jpg);
     background-size: cover;
+     transition: 0.3s ease-in-out;
 }
 
 .box.img{
@@ -166,7 +167,7 @@ header a:hover {
 
 .img:hover {
     transform: scale(1.05);
-    transition: 0.3s ease-in-out;
+   
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
@@ -197,7 +198,7 @@ footer {
 .fire_right{
     left: 7.5rem;
     position: relative;
-    top: 2.2rem;
+    top: 3.5rem;
 
 
 }
@@ -205,5 +206,5 @@ footer {
 .fire_left{
      left: 11rem;
     position: relative;
-    top: 4.5rem;
+    top: 5.75rem;
 }
