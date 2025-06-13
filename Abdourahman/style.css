@@ -97,3 +97,11 @@
         padding: 10px;
     }
 }
+.titr{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
