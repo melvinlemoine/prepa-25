@@ -116,12 +116,13 @@ header a {
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
+         transition: 0.3s ease-in-out;
+
 }
 
 header a:hover {
     background: #ffffff;
     color: #000000;
-    font-size: 1.25rem;
     font-weight: bold;
     cursor: pointer;
     border-radius: 25rem;
