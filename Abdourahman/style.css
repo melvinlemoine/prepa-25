@@ -39,10 +39,10 @@
 .kagura:hover {
    transform: scale(1.2); }
 
-.boitea { background-image: url("kagura1.jpeg"); }
-.boiteb { background-image: url("kagura2.jpeg"); }
-.boitec { background-image: url("kagura3.jpeg"); }
-.boited { background-image: url("kagura4.jpeg"); }
+.boitea { background-image: url("kagura.webp"); }
+.boiteb { background-image: url("jjk.jpg"); }
+.boitec { background-image: url("narutoo.jpg"); }
+.boited { background-image: url("onepiece.jpg"); }
 
 .boitea,
 .boiteb,
@@ -96,4 +96,12 @@
         width: 100%;
         padding: 10px;
     }
+}
+.titr{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    
 }
