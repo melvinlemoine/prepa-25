@@ -94,6 +94,12 @@ span {
 
 }
 
+h2 span{
+    color: orange;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 header h3 {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
@@ -141,7 +147,7 @@ header a:hover {
 
 
 
-img{
+.img{
     width: 80%;
     height: 80%;
     border-radius: 1.5rem;
@@ -185,6 +191,6 @@ top: 28.5%;
 
 .fire_left{
 position: absolute;
-left: 24%;
-top: 29%;
+bottom: 6.1%;
+right: 51%;
 }
